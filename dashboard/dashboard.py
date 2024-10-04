@@ -8,7 +8,7 @@ def load_data():
 
     # Season Labels for find Sumarize
 
-    bike_all = pd.read_csv("bike_all.csv")
+    bike_all = pd.read_csv("/workspaces/Proyek-Analisis-Bike-Sharing/dashboard/bike_all.csv")
     season_labels = {
         1: 'Spring',
         2: 'Summer',
@@ -44,6 +44,7 @@ def load_data():
 def setup_sidebar(min_date, max_date):
     with st.sidebar:
         st.subheader('Bike Sharing')
+        st.subheader('Rizky Andika Apriansyah m117b4ky3925')
         st.image("https://cdn.pixabay.com/photo/2012/04/28/19/26/bicycles-44154_960_720.png")
         
         selected_dates = st.date_input(
