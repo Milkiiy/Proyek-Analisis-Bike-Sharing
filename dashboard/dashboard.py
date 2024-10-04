@@ -8,7 +8,7 @@ def load_data():
 
     # Season Labels for find Sumarize
 
-    bike_all = pd.read_csv("/workspaces/Proyek-Analisis-Bike-Sharing/dashboard/bike_all.csv")
+    bike_all = pd.read_csv("https://raw.githubusercontent.com/Milkiiy/Proyek-Analisis-Bike-Sharing/main/dashboard/bike_all.csv")
     season_labels = {
         1: 'Spring',
         2: 'Summer',
